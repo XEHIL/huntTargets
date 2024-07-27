@@ -1,0 +1,14 @@
+{
+    "wildCards": ["*.hackerone.com"],
+    "outOfScope": {
+        "OSS-subDomains": [],
+        "OSS-URLs": []
+    },
+    "singleURLs": [],
+    "reconConfig": {
+        "requestHeader": "X-HackerOne-Research: XEHIL",
+        "portScan": true,
+        "rateLimit": 10,
+        "activeRecon": true
+    }
+}
